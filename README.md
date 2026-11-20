@@ -1,6 +1,6 @@
 # Rspack RSC: a client component reached only through a client-imported server action is never handed off
 
-Reproduction for (issue link once filed).
+Reproduction for https://github.com/web-infra-dev/rspack/issues/16786.
 
 Plain Rsbuild + `rsbuild-plugin-rsc`, no framework. A `'use server'` module that only a client component imports
 renders another client component. The build passes; calling the action fails because that client component is not in
