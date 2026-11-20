@@ -1,0 +1,18 @@
+{
+  "name": "rspack-rsc-second-handoff-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs repro",
+    "control": "node repro.mjs control",
+    "watch": "node watch.mjs"
+  },
+  "dependencies": {
+    "@rsbuild/core": "2.3.3",
+    "@rsbuild/plugin-react": "2.1.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-server-dom-rspack": "0.1.1",
+    "rsbuild-plugin-rsc": "0.1.1"
+  }
+}
